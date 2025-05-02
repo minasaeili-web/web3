@@ -1,0 +1,58 @@
+font-family{
+    font-family: "Roboto", sans-serif;
+}
+.bg{
+    background-image: url(../img/home-banner.jpg);
+     width: 100%;
+     height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-bb{
+    color: rgb(98, 98, 137);
+    &:hover{
+        transition: .5s;
+    }
+}
+
+.mx-auto{
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+.ax{
+    background-image: url(../img/home-parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 58vh;
+
+}
+
+.nm{
+    color: rgb(138, 63, 63);
+}
+
+.ws{
+
+  height: 80vh;
+
+}
+
+.fo{
+    height: 30px
+
+}
+body {
+    transition: .4s;
+}
+
+.darkmode {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+
